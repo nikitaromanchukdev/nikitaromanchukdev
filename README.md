@@ -2,7 +2,7 @@
 
 **Senior Frontend Engineer**
 
-Warsaw, Poland | +48572997025 | nromanchuk1997@gmail.com | [LinkedIn](https://linkedin.com/in/nikita-romanchuk)
+Warsaw, Poland | nromanchuk1997@gmail.com | [LinkedIn](https://linkedin.com/in/nikita-romanchuk)
 
 ## SUMMARY
 
