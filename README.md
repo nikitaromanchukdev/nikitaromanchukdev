@@ -1,154 +1,82 @@
-# Mikita Ramancuk
+# Mikita Ramanchuk
 
-**Senior Frontend Engineer**
+**Senior Fullstack Engineer**
+Warsaw, Poland | +48572997025 | nromanchuk1997@gmail.com | linkedin.com/in/nikita-romanchuk
 
-Warsaw, Poland | nromanchuk1997@gmail.com | [LinkedIn](https://linkedin.com/in/nikita-romanchuk)
+## Summary
 
-## SUMMARY
+Senior Full-Stack Engineer with 9 years of experience building React/TypeScript products and Node.js/NestJS services. Delivered products from zero to production, from discovery and architecture to end-to-end features, and modernized existing platforms while mentoring engineers and setting technical direction and coding standards. Domain-heavy work across cybersecurity, insurtech, legal/M&A, CRM, coaching and healthcare.
 
-Senior Frontend Engineer with 9 years of experience specializing in React, TypeScript, frontend architecture, reusable UI systems, and application modernization. Experienced in designing frontend architecture from the ground up, leading technical direction, and delivering complex applications across domain-heavy environments. Strong in requirements analysis, technical decision-making, customer collaboration, and mentoring engineers. Full-stack experience with Node.js, NestJS, and PostgreSQL, with hands-on use of AI coding agents for development and codebase modernization.
+## Languages
 
-## LANGUAGES
+- **Russian** – Native
+- **English** – B2+
 
-- **Russian** — Native
-- **English** — B2+
+## Education
 
-## EDUCATION
-
-**Belarusian State University of Informatics and Radioelectronics**  
+**Belarusian State University of Informatics and Radioelectronics**
 Bachelor's, Information Technology Software
 
-## EXPERIENCE
+## Experience
 
 ### Senior Frontend Engineer
+**On The Spot** | Nov 2024 – Present | Warsaw, Poland
 
-**On The Spot**  
-NOV 2024 - PRESENT | Warsaw, Poland
+- Contributed new accessible (WCAG, WAI-ARIA) components to Cycode's design system (Styled Components, Storybook), adopted by other teams; migrating onto them removed 10K+ lines of divergent duplicate implementations whose inconsistent behavior caused bugs.
+- Built configurable two-way Jira ↔ Cycode status mapping, enforced by Zod schema validation and multi-parameter duplicate detection, so customers can map their own Jira workflows without conflicting rules; a feature a major enterprise customer had been waiting for.
+- Re-platformed business-critical legacy Angular functionality to React/TypeScript on HoneyBook, including the banking flow for linking cards and bank accounts, released to 100,000+ businesses; reconstructed undocumented rules from source code, preserving required behavior and fixing previously unknown bugs.
+- Built an agentic development workflow (Claude Code, Codex) for a large multi-domain codebase, encoding project rules and recurring actions as engineered context and custom skills; sped up delivery, reduced recurring agent errors and cut token usage by removing repeated instructions.
 
-#### Cycode
+### Senior Backend Engineer (part-time contract)
+**FirstConnect** | Oct 2025 – Apr 2026 | Remote
 
-Application Security Posture Management platform consolidating security findings across code, dependencies, cloud, CI/CD, containers, and secrets into a unified inventory with prioritized violations, policy enforcement, and compliance workflows. Integrates with major cloud, source control, CI/CD, and third-party security tools.
-
-**Stack:** React, TypeScript, JavaScript, HTML5, CSS3, Styled Components, Custom Component Library / Design System, DnD-kit, Storybook, Vite, Vitest, Playwright, Express, Zod
-
-- Quickly ramped up on a large React/TypeScript codebase with complex domain logic spanning multiple cybersecurity subdomains.
-- Reverse-engineered existing implementations, workflows, and business rules to clarify undocumented requirements, then validated assumptions with Product and technical owners before implementation.
-- Implemented features across multiple cybersecurity subdomains within an established React/TypeScript architecture and custom component library.
-- Used AI coding agents for codebase exploration, planning, implementation, test generation and validation, pre-review analysis, pull-request preparation, and addressing review feedback while retaining human validation and technical decision-making.
-
-#### Honeybook
-
-Business management and CRM platform that helps small businesses manage client relationships, projects, bookings, contracts, invoices, payments, and communication through a unified workflow.
-
-**Stack:** HTML5, CSS3, TypeScript, React, MobX, Formik, Custom Component Library, Jest, React Testing Library, Angular
-
-- Reverse-engineered legacy Angular functionality from existing source code to reconstruct implicit business rules, workflows, and edge cases in the absence of formal requirements.
-- Validated the reconstructed requirements with product team and team lead, identified gaps and inconsistencies in the existing implementation, and clarified expected behavior before beginning development.
-- Designed and implemented the corresponding functionality in the React/TypeScript platform, translating legacy behavior into modern frontend architecture and patterns.
-- Analyzed legacy implementation details and edge cases to preserve required business behavior while identifying opportunities to address existing issues during re-platforming.
-- Rapidly onboarded to an unfamiliar codebase and independently drove the analysis and implementation of assigned legacy functionality.
+- Migrated Appetite Finder, the platform's core carrier-matching feature, from the shared BFF into a dedicated Node.js/NestJS service as part of the move to a service-oriented architecture, taking load off the BFF bottleneck and making Appetite Finder issues traceable in isolation.
+- Extended the error-processing system that maps carriers' custom errors to standardized, human-readable feedback for agents, adding new matching rules and carrier-specific exceptions so clients again received up-to-date status feedback after API changes by the platform's high-traffic carriers.
+- Rebuilt Appetite Finder's outdated BFF test suite from scratch in the new service, closing coverage gaps to cover 100% of user flows.
 
 ### Lead Fullstack Engineer
+**Vention** | Oct 2022 – Oct 2024 | Warsaw, Poland
 
-**Vention**  
-OCT 2022 - OCT 2024 | Warsaw, Poland
+- Designed the end-to-end architecture during discovery (React; NestJS/PostgreSQL on Domain-Driven Design and an n-layered structure), which carried the product through production launch, gradual user migration and two years of new modules without structural changes.
+- Led frontend development as the team's leading frontend contributor and a core backend contributor, delivering features end to end from UI through API and database to deployment (Docker, AWS).
+- Owned estimation, planning and trade-off negotiation as the customer's primary technical contact across a two-year engagement, with estimates that held through delivery.
 
-#### Coaching Platform
+### Frontend TechLead
+**Vention** | Aug 2021 – Oct 2022 | Minsk, Belarus
 
-Platform for managing coaching processes, user hierarchies, access roles, events, and shared learning resources. Supports role-based access across organizational layers, event subscriptions and notifications, and rich multimedia resource management.
+- Designed the frontend architecture from the ground up and selected the stack (React, Redux Toolkit, RTK Query, Slate).
+- Defined the frontend/backend separation of concerns for the core feature, a dynamic questionnaire driven by negotiation type and earlier answers, moving part of its logic to the frontend, which sped up delivery.
+- Closed gaps in user stories before development by proposing solutions the customer accepted, reducing rework; every feature passed customer demos.
 
-**Stack:** React, TypeScript, JavaScript, Node.js, NestJS, Express, PostgreSQL, Sequelize, TanStack Query, Jotai, MUI, React Hook Form, TanStack Table, Docker, AWS, Domain-Driven Design, n-layered architecture
+### Team Lead
+**Jagaad** | Apr 2021 – Aug 2021 | Minsk, Belarus
 
-- Shaped technical architecture and stack decisions during discovery, balancing requirements, technical constraints, and long-term maintainability.
-- Served as the primary technical point of contact for the customer’s Product team, translating requirements into technical solutions and negotiating trade-offs.
-- Delivered end-to-end features across frontend and backend, from design and implementation through deployment.
-- Led frontend development and technical direction across the project.
-- Owned technical estimation and planning, providing stakeholders with effort estimates and implementation options.
-- Mentored junior developers and an intern across React, Node.js, and NestJS, supporting their progression toward independent contribution.
-- Established TypeScript, linting, formatting, and Git conventions, improving code consistency and developer experience.
-- Independently managed the technical delivery and customer relationship throughout a long-term engagement, ensuring continuity and project ownership.
-
-### Lead Frontend Engineer
-
-**Vention**  
-AUG 2021 - OCT 2022 | Minsk, Belarus
-
-#### Legal / M&A Contract Management Platform
-
-Platform for managing M&A contract negotiations and generating legal agreements and term sheets through configurable form builders, automated templates, negotiation workflows, and digital signing.
-
-**Stack:** React, JavaScript, TypeScript, Redux, Redux Toolkit, RTK Query, MUI, Slate, Formik, HTML5, CSS3
-
-- Led frontend development and designed the application architecture from the ground up.
-- Drove research and discovery, contributing to technical stack selection and architectural direction.
-- Made architecture and design decisions balancing business requirements, usability, technical feasibility, and maintainability.
-- Refined business requirements by identifying gaps in user stories, proposing solutions, and aligning expected behavior with customer needs.
-- Acted as a technical liaison with customers, clarifying requirements, presenting solutions, and leading product demonstrations.
-- Contributed as a technical specialist in select interviews, evaluating frontend candidates as part of the engineering hiring process.
-
-### Team Lead / Senior Software Engineer
-
-**Jagaad**  
-APR 2021 - AUG 2021 | Minsk, Belarus
-
-#### Healthcare Platform
-
-**Tech Stack:** JavaScript, TypeScript, React, Vue.js, Nuxt, Netlify, HTML5, CSS3, SCSS, ESLint, Prettier, Stylelint
-
-- Represented the development team on external projects as Team Lead, serving as the go-to technical contact for coordinating communication and supporting project delivery.
-- Led and mentored junior developers across internal and external projects, supporting onboarding, technical growth, and preparation for project work.
-- Owned code quality and technical direction for the frontend team as Team Lead — leading code reviews, establishing development standards and architectural conventions, and refactoring existing code to improve consistency.
-- Served as the team's sole React-experienced lead, owning the technical hiring pipeline for React roles across all levels — reviewing home assignments, deciding which candidates advanced to interview, and conducting the interviews themselves.
-- Contributed technical expertise to Team Lead meetings and internal engineering initiatives, helping define development processes and improve collaboration across teams.
+- Built shared reusable components adopted by the whole 6-person frontend team and set code standards and architectural conventions, noticeably speeding up development and code reviews; led tech debt remediation.
+- Mentored junior developers through onboarding until they moved onto client projects.
+- Ran React hiring for all levels as the team's only React-experienced lead: assignment review, candidate selection and interviews.
 
 ### Software Engineer
+**Vention** | Nov 2019 – Apr 2021 | Minsk, Belarus
 
-**Vention**  
-NOV 2019 - APR 2021 | Minsk, Belarus
+- Designed self-contained frontend modules and restructured the application architecture, improving code organization and making new features simpler to build and extend.
+- Led a large-scale refactoring that removed duplicated code and reduced overall codebase complexity.
+- Reduced database queries with NestJS-based optimizations and reworked frontend data fetching and loading, shortening page load and time-to-interactive.
 
-#### Auto Services Management Platform
+### Frontend Engineer
+**XBSoftware** | Nov 2017 – Nov 2019 | Minsk, Belarus
 
-**Stack:** JavaScript (ES6), Vue.js, Vuex, Nuxt, Axios, Node.JS, NestJS, TypeScript, MariaDB, Sequelize ORM, Sequelize-typescript, Eslint, Cypress
+- Worked on several client projects in parallel, building new features, extending third-party libraries and refactoring legacy code while working directly with customers.
+- Promoted twice in two years (Junior → Junior 2 → Middle), each promotion gated by a technical interview and a comprehensive knowledge test with an 85+ pass score.
 
-- Designed and implemented self-contained, scalable, and maintainable frontend modules, improving application modularity and simplifying future development.
-- Restructured the existing application architecture to improve code organization, readability, and extensibility.
-- Led a large-scale refactoring effort, significantly reducing code duplication and overall codebase complexity.
-- Redesigned backend data models and entity relationships to better leverage ORM capabilities, reduce boilerplate, and improve code maintainability.
-- Introduced NestJS-based solutions to optimize database interactions, reduce the number of queries, and improve backend performance.
-- Optimized existing data-fetching and loading logic, reducing page load times and improving overall time-to-interactive.
+## Technical Skills
 
-### Junior / Middle Software Engineer
-
-**XBSoftware**  
-NOV 2017 - NOV 2019 | Minsk, Belarus
-
-**Stack:** JavaScript, HTML5, CSS3, React, Vue.js, VueX, Node.js, REST APIs, Webpack, Apache Cordova
-
-- Took ownership of existing codebases, implementing new functionality, extending third-party libraries, and refactoring legacy applications for performance and maintainability.
-- Collaborated directly with customers across multiple projects.
-
-## TECHNICAL SKILLS
-
-**Programming Languages:** JavaScript (ES6+), TypeScript
-
-**Frontend:** React, React Hooks, Redux, Redux Toolkit, TanStack Query, Jotai, Vue.js, Vuex, Nuxt, MUI (Material UI), React Hook Form, Formik, Recharts, Redux Thunk
-
-**Frontend Architecture & UI:** Frontend Architecture, Reusable Component Design, Responsive Design, HTML5, CSS3, SCSS, CSS Modules, CSS-in-JS, Styled Components, Rendering Patterns, Storybook
-
-**Code Quality & Development Standards:** ESLint, Prettier, Stylelint, Commitlint, Husky, Git hooks
-
-**Backend:** Node.js, NestJS, Express, REST APIs, Sequelize, Zod
-
-**Databases:** PostgreSQL
-
-**Testing:** Jest, Vitest, React Testing Library, Cypress, Playwright
-
-**Build & CI/CD:** Vite, Webpack, Docker, GitHub Actions, GitLab CI/CD
-
-**Architecture:** Domain-Driven Design (DDD), n-layered architecture, Service-Oriented Architecture
-
-**Cross-platform:** Apache Cordova
-
-**AI-assisted Development:** AI coding agents, agentic development workflows, prompt/context engineering, Cursor, Claude, Codex
-
-**Version Control:** Git
+- **Programming languages:** JavaScript (ES6+), TypeScript
+- **Frontend:** React, React Hooks, Redux, Redux Toolkit, TanStack Query, Jotai, Vue.js, Vuex, Nuxt, MUI (Material UI), React Hook Form, Formik, Recharts, Redux Thunk, i18n
+- **Frontend Architecture & UI:** Frontend Architecture, Reusable Component Design, Responsive Design, HTML5, CSS3, SCSS, CSS Modules, CSS-in-JS, Styled Components, Rendering Patterns, Storybook, WCAG, WAI-ARIA accessibility, SSR, SSG, ISG (ISR), Core Web Vitals
+- **Code Quality & Development Standards:** ESLint, Prettier, Stylelint, Commitlint, Husky, Git hooks
+- **Backend:** Node.js, NestJS, Express, REST APIs, Sequelize, Zod, OAuth 2.0, JWT, OpenAPI / Swagger, PostgreSQL
+- **Testing:** Jest, Vitest, React Testing Library, Cypress, Playwright, Visual regression testing, TDD/BDD
+- **Build & CI/CD:** Git, Vite, Webpack, Docker, GitHub Actions, GitLab CI/CD
+- **Architecture:** Domain-Driven Design (DDD), n-layered architecture, Service-Oriented Architecture
+- **AI-assisted Development:** AI coding agents, agentic development workflows, prompt/context engineering, AI code review, Claude Code, Codex
+- **Other:** Jira, Figma, Apache Cordova, Scrum, Kanban, Agile, Sprint Planning, Retrospectives, Mentoring
